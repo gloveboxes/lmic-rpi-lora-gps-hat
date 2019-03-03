@@ -9,7 +9,7 @@ LMICCFG += -DCFG_DEBUG -DCFG_us915 -DCFG_au915 -DCFG_sx1276_radio -DDEBUG_LMIC -
 
 CCOPTS = -c -std=gnu99
 
-LNOPTS = -lwiringPi
+LNOPTS = -lwiringPi -lgps -lm
 INC = .
 CC = gcc
 LN = gcc
